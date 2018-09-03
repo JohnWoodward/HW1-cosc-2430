@@ -1,4 +1,17 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+//package company;
+
+=======
 package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 import java.util.ArrayList;
 
 public class HighestFrequencyWord {
@@ -58,7 +71,7 @@ public class HighestFrequencyWord {
                 highestCountIndex = i;
             }
         }
-        highestCountString = word.get(highestCountIndex) + " : " + currentHighestCount;
+        highestCountString = word.get(highestCountIndex) + ":" + currentHighestCount;
 
         return highestCountString;
     }

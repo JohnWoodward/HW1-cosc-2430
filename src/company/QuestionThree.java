@@ -1,4 +1,17 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+//package company;
+
+=======
 package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 import java.util.ArrayList;
 
 public class QuestionThree {
@@ -39,8 +52,8 @@ public class QuestionThree {
             }
 
             HighestFrequencyWord questionThree = new HighestFrequencyWord(word, wordCount);
-            answerSplit = questionThree.highestFrequency().split("\\s*(=>|[.]|\\s)\\s*");
-            currentCount = Integer.parseInt(answerSplit[2]);
+            answerSplit = questionThree.highestFrequency().split("\\s*(=>|[:]|\\s)\\s*");
+            currentCount = Integer.parseInt(answerSplit[1]);
             if (highestCount <= currentCount) {
                 if (currentCount == highestCount) {
                     ifMultiple.add(questionThree.highestFrequency());

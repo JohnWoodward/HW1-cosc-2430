@@ -3,7 +3,7 @@ package company;
 public class Main {
 
     public static void main(String[] args) {
-        String inputFile = "C:\\Users\\John Woodward\\IdeaProjects\\cosc-2430-homework-1\\cosc2430-homework-1\\src\\tiny1.txt";
+        String inputFile = "tiny1.txt";
 
         FileInput toBeParsed = new FileInput(inputFile);
 
@@ -13,7 +13,7 @@ public class Main {
 
         QuestionFourThroughNine getAnswers = new QuestionFourThroughNine(toBeParsed.getSentenceArray(), toBeParsed.getSentenceCount());
 
-        Question6 sixThroughNine = new Question6(toBeParsed.getSentenceArray(), toBeParsed.getSentenceCount());
+
 
 
 
@@ -25,10 +25,9 @@ public class Main {
         FileOutput outputFour = new FileOutput("output4.txt", getAnswers.searchToOutput(0));
         FileOutput outputFive = new FileOutput("output5.txt", getAnswers.searchToOutput(1));
         FileOutput outputSix = new FileOutput("output6.txt", getAnswers.searchToOutput(2));
-
-        FileOutput outputSeven = new FileOutput("output7 .txt", sixThroughNine.searchToOutput(0));
-        FileOutput outputEight = new FileOutput("output8.txt", sixThroughNine.searchToOutput(1));
-        FileOutput outputNine = new FileOutput("output9.txt", sixThroughNine.searchToOutput(2));
+        FileOutput outputSeven = new FileOutput("output7 .txt", getAnswers.searchToOutput(3));
+        FileOutput outputEight = new FileOutput("output8.txt", getAnswers.searchToOutput(4));
+        FileOutput outputNine = new FileOutput("output9.txt", getAnswers.searchToOutput(5));
 
         // write your code here
     }
