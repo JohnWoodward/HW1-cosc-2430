@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //package company;
 
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
 package company;
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
