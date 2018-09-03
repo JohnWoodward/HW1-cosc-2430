@@ -58,7 +58,7 @@ public class HighestFrequencyWord {
                 highestCountIndex = i;
             }
         }
-        highestCountString = word.get(highestCountIndex) + " : " + currentHighestCount;
+        highestCountString = word.get(highestCountIndex) + ":" + currentHighestCount;
 
         return highestCountString;
     }

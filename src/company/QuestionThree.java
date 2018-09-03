@@ -39,8 +39,8 @@ public class QuestionThree {
             }
 
             HighestFrequencyWord questionThree = new HighestFrequencyWord(word, wordCount);
-            answerSplit = questionThree.highestFrequency().split("\\s*(=>|[.]|\\s)\\s*");
-            currentCount = Integer.parseInt(answerSplit[2]);
+            answerSplit = questionThree.highestFrequency().split("\\s*(=>|[:]|\\s)\\s*");
+            currentCount = Integer.parseInt(answerSplit[1]);
             if (highestCount <= currentCount) {
                 if (currentCount == highestCount) {
                     ifMultiple.add(questionThree.highestFrequency());
