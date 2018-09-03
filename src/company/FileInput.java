@@ -1,8 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //package company;
 
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
 package company;
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
@@ -55,11 +59,17 @@ public class FileInput {
 
                     for (String currentSentence : currentSentenceArray) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 
                         scentence.add(currentSentence);
                         lineCount++;
                     }
+<<<<<<< HEAD
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
 
                         scentence.add(currentSentence);
@@ -67,9 +77,14 @@ public class FileInput {
                     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     currentLineArray = currentLine.split("\\s*(=>|[.]|\\s)\\s*");
 
+=======
+                    currentLineArray = currentLine.split("\\s*(=>|[.]|\\s)\\s*");
+
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
                     currentLineArray = currentLine.split("\\s*(=>|[.]|\\s)\\s*");
 

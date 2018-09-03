@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/company/FileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/FileInput.java" afterDir="false" />
@@ -17,6 +18,10 @@
 =======
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -41,6 +46,9 @@
       <change beforePath="$PROJECT_DIR$/src/data/data/tiny1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tiny1.txt" afterDir="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
@@ -63,8 +71,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+=======
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
             <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -77,6 +90,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="tiny2_7.txt" pinned="false" current-in-tab="false">
@@ -94,6 +108,11 @@
       <file leaf-file-name="QuestionFourThroughNine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/company/QuestionFourThroughNine.java">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="QuestionFourThroughNine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/company/QuestionFourThroughNine.java">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
             <state relative-caret-position="381">
               <caret line="105" column="106" selection-start-line="105" selection-start-column="106" selection-end-line="105" selection-end-column="106" />
               <folding>
@@ -105,6 +124,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="QuestionFourThroughNine.java" pinned="false" current-in-tab="true">
@@ -260,6 +280,43 @@
             <state relative-caret-position="277">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+      <file leaf-file-name="output4.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output4.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="output5.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output5.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="output6.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output6.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="output7 .txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output7 .txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="output8.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output8.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="output9.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output9.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="HighestFrequencyWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/company/HighestFrequencyWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
             </state>
           </provider>
         </entry>
@@ -295,6 +352,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/company/Main.java" />
 =======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
@@ -306,6 +364,13 @@
         <option value="$PROJECT_DIR$/src/company/HW1.java" />
         <option value="$PROJECT_DIR$/src/company/test_java.sh" />
 =======
+        <option value="$PROJECT_DIR$/src/company/QuestionThree.java" />
+        <option value="$PROJECT_DIR$/src/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/company/QuestionFourThroughNine.java" />
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+        <option value="$PROJECT_DIR$/src/company/FileInput.java" />
+        <option value="$PROJECT_DIR$/src/company/HighestFrequencyWord.java" />
         <option value="$PROJECT_DIR$/src/company/QuestionThree.java" />
         <option value="$PROJECT_DIR$/src/company/Main.java" />
         <option value="$PROJECT_DIR$/src/company/QuestionFourThroughNine.java" />
@@ -433,8 +498,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
@@ -454,8 +524,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
 =======
+=======
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
@@ -645,6 +718,8 @@
             <element signature="e#3510#3511#0" expanded="true" />
             <element signature="e#3554#3555#0" expanded="true" />
           </folding>
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
@@ -669,6 +744,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/company/FileOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/company/FileInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/company/QuestionThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/company/Question6.java">
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
       <provider selected="true" editor-type-id="text-editor">
@@ -687,9 +790,13 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/company/PairsToSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/company/Question6.java" />
     <entry file="file://$PROJECT_DIR$/output7 .txt">
+=======
+    <entry file="file://$PROJECT_DIR$/output1.txt">
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
     <entry file="file://$PROJECT_DIR$/output1.txt">
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
@@ -705,6 +812,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/company/Main.java">
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/company/QuestionThree.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,6 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/company/Question6.java">
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -722,6 +832,9 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
     <entry file="file://$PROJECT_DIR$/src/company/HighestFrequencyWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -737,6 +850,7 @@
     <entry file="file://$PROJECT_DIR$/output1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/output2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -876,6 +990,31 @@
 =======
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
 =======
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
+=======
+    <entry file="file://$PROJECT_DIR$/output6.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output7 .txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output9.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/company/QuestionFourThroughNine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="105" column="106" selection-start-line="105" selection-start-column="106" selection-end-line="105" selection-end-column="106" />
+          <folding>
+            <element signature="e#3510#3511#0" expanded="true" />
+            <element signature="e#3554#3555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
 >>>>>>> parent of 3e1b4d7... Finish queston 4-9
   </component>
 </project>
