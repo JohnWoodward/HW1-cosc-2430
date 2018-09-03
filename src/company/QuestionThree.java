@@ -1,15 +1,21 @@
+<<<<<<< HEAD
 //package company;
 
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 import java.util.ArrayList;
 
 public class QuestionThree {
     private String currentSentence;
     private ArrayList<String> word;
     private String[] sentenceArray;
-    private String[] answerSplit;
+    private String [] answerSplit;
     private int wordCount;
     private int highestCount;
+    private String mostFrequentWord;
     private int currentCount;
+    private int sentenceIndex;
     private ArrayList<String> ifMultiple;
     private int multiSentenceCount;
     private ArrayList<Integer> ifMultipleIndex;
@@ -21,6 +27,7 @@ public class QuestionThree {
         ifMultipleIndex = new ArrayList<>();
         wordCount = 0;
         highestCount = 0;
+        mostFrequentWord = "";
         multiSentenceCount = 0;
 
 
@@ -60,11 +67,11 @@ public class QuestionThree {
         }
     }
 
-    String toOutput(ArrayList<String> list) {
+    String toOutput (ArrayList<String> list) {
         String stringToOutput = "";
 
         for (int i = 0; i <= multiSentenceCount; i++) {
-            stringToOutput += (ifMultiple.get(i) + ":" + list.get(ifMultipleIndex.get(i)).replaceAll("\\.", "") + "\n");
+            stringToOutput += (ifMultiple.get(i) + " : " + list.get(ifMultipleIndex.get(i)) + "\n");
         }
         return stringToOutput;
     }

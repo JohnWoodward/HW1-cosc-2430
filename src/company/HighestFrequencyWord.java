@@ -1,15 +1,20 @@
+<<<<<<< HEAD
 //package company;
 
+=======
+package company;
+>>>>>>> parent of 3e1b4d7... Finish queston 4-9
 import java.util.ArrayList;
 
 public class HighestFrequencyWord {
     private int uniqueWordCount;
     private int currentHighestCount;
-    private ArrayList<String> word;
-    private ArrayList<Integer> frequency;
+    private ArrayList <String> word;
+    private ArrayList <Integer> frequency;
 
     private int highestCountIndex = 0;
     private String highestCountString;
+
 
 
     HighestFrequencyWord(ArrayList<String> wordList, int maxIndex) {
@@ -71,7 +76,7 @@ public class HighestFrequencyWord {
         String thirdPlaceString;
 
         for (int i = 0; i < uniqueWordCount; i++) {
-            if (currentHighestCount > frequency.get(i) && frequency.get(i) > secondHighestCount) {
+            if (currentHighestCount > frequency.get(i) && frequency.get(i) > secondHighestCount ) {
                 secondHighestCount = frequency.get(i);
             }
         }
@@ -82,7 +87,7 @@ public class HighestFrequencyWord {
                 thirdCountIndex = i;
             }
         }
-        thirdPlaceString = word.get(thirdCountIndex) + ":" + thirdHighestCount;
+        thirdPlaceString = word.get(thirdCountIndex) + " : " + thirdHighestCount;
 
         return thirdPlaceString;
     }

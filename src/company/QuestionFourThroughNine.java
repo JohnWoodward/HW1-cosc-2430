@@ -8,11 +8,16 @@ public class QuestionFourThroughNine {
     private String[] sentenceArray;
     private int wordCount;
     private int highestCount;
+    private int currentCount;
+    private int multiSentenceCount;
     private ArrayList<Integer> wordFoundIndex;
     private ArrayList<String> wordsToFind;
     private ArrayList<String> wordsFound;
     private String stringStore;
+    private int singleIndex;
     private int matchesFoundCount;
+
+
     private int wordsFoundCount;
 
     QuestionFourThroughNine(ArrayList<String> sentenceList, int maxIndex) {
@@ -32,8 +37,10 @@ public class QuestionFourThroughNine {
 
         for (int n = 0; n < 6; n++) {
             highestCount = 0;
+            multiSentenceCount = 0;
             wordFoundIndex.clear();
             stringStore = "";
+            singleIndex = 0;
             matchesFoundCount = 0;
             String currentWordToFind = wordsToFind.get(n);
             matchesFoundCount = 0;
@@ -41,9 +48,13 @@ public class QuestionFourThroughNine {
 
             for (int i = 0; i < maxIndex; i++) {
                 currentSentence = sentenceList.get(i);
+                currentCount = 0;
                 word.clear();
                 wordCount = 0;
+
+
                 wordsFoundCount = 0;
+
 
                 sentenceArray = currentSentence.split("\\s*(=>|[.]|\\s)\\s*");
 
@@ -52,6 +63,8 @@ public class QuestionFourThroughNine {
                     wordCount++;
                 }
 
+//                WordToSearch currentQuestion = new WordToSearch(wordsToFind.get(n), word, wordCount);
+//                currentCount = currentQuestion.countForSentence();
 
                 for (int k = 0; k < wordCount; k++) {
 
@@ -83,32 +96,74 @@ public class QuestionFourThroughNine {
 
             }
 
-            if (matchesFoundCount == 0) {
-                for (int k = 0; k < maxIndex; k++) {
-                    stringStore += (wordsToFind.get(n) + ":" + highestCount + ":" + sentenceList.get(k).replaceAll("\\.", "") + "\n");
+            for (int j = 0; j < matchesFoundCount; j++) {
+                if (matchesFoundCount > 0) {
+
+                    stringStore += (wordsToFind.get(n) + ":" + highestCount + ":" + sentenceList.get(wordFoundIndex.get(j)) + "\n");
                 }
-            } else {
-                for (int j = 0; j < matchesFoundCount; j++) {
-                    if (matchesFoundCount > 0) {
-
-                        stringStore += (wordsToFind.get(n) + ":" + highestCount + ":" + sentenceList.get(wordFoundIndex.get(j)).replaceAll("\\.", "") + "\n");
-                    } else {
-                        for (int k = 0; k < maxIndex; k++) {
-
-                        }
+                else {
+                    for (int k = 0; k < maxIndex; k++) {
+                        stringStore += (wordsToFind.get(n) + ":" + highestCount + ":" + sentenceList.get(k) + "\n");
                     }
-
                 }
 
             }
             wordsFound.add(stringStore);
         }
-
-
     }
-
 
     String searchToOutput(int index) {
         return wordsFound.get(index);
     }
 }
+
+
+//                                if (highestCount <= currentCount) {
+//                                    if (currentCount == highestCount) {
+//
+//                                        wordFoundIndex.add(i);
+//                                        wordFoundCount++1;
+//                                        multiSentenceCount++;
+//
+//
+//                                    } else {
+//                                        wordFoundIndex.clear();
+//                                        multiSentenceCount = 0;
+//                                        singleIndex = i;
+//                                        highestCount = currentCount;
+//                                    }
+
+//                                }
+//                            }
+//                        }
+//                    }
+
+//
+//                }
+//            }
+//            if ((highestCount) == 0) {
+//                wordsFound.add("No Matches Found!");
+//                System.out.println("No Matches Found!");
+//            } else if (multiSentenceCount == 0) {
+//                stringStore += (wordsToFind.get(n) + " : " + highestCount + " : " + sentenceList.get(singleIndex) + "\n");
+//            } else {
+//                for (int i = 0; i < multiSentenceCount; i++) {
+//                    stringStore += (wordsToFind.get(n) + " : " + highestCount + " : " + sentenceList.get(wordFoundIndex.get(i)) + "\n");
+//                }
+//            }
+//            wordsFound.add(stringStore);
+//        }
+////            else if (singleMatch > 0) {
+////                wordsFound.add(wordsToFind.get(n) + " : " + highestCount + " : " + sentenceList.get(singleIndex));
+////
+////            }
+////            wordsFound.add("No matches Found");
+//
+//
+//    }
+
+
+//    String searchToOutput(int index) {
+//        return wordsFound.get(index);
+//    }
+//}

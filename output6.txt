@@ -1,10 +1,10 @@
-was:1:His costume was a peculiar mixture of the professional and of the agricultural having a black top hat a long frock coat and a pair of high gaiters with a hunting crop swinging in his hand
-was:1:So tall was he that his hat actually brushed the cross bar of the doorway and his breadth seemed to span it across from side to side
-was:1:A large face seared with a thousand wrinkles burned yellow with the sun and marked with every evil passion was turned from one to the other of us while his deep set bile shot eyes and his high thin fleshless nose gave him somewhat the resemblance to a fierce old bird of prey
-was:1:I am not quite so bulky but if he had remained I might have shown him that my grip was not much more feeble than his own
-was:1:It was nearly one oclock when Sherlock Holmes returned from his excursion
-was:1:The total income which at the time of the wifes death was little short of 1100 is now through the fall in agricultural prices not more than 750
-was:1:It was a perfect day with a bright sun and a few fleecy clouds in the heavens
-was:1:The trees and wayside hedges were just throwing out their first green shoots and the air was full of the pleasant smell of the moist earth
-was:1:To me at least there was a strange contrast between the sweet promise of the spring and this sinister quest upon which we were engaged
+was:1:His costume was a peculiar mixture of the professional and of the agricultural having a black top hat a long frock coat and a pair of high gaiters with a hunting crop swinging in his hand.
+was:1:So tall was he that his hat actually brushed the cross bar of the doorway and his breadth seemed to span it across from side to side.
+was:1:A large face seared with a thousand wrinkles burned yellow with the sun and marked with every evil passion was turned from one to the other of us while his deep set bile shot eyes and his high thin fleshless nose gave him somewhat the resemblance to a fierce old bird of prey.
+was:1:I am not quite so bulky but if he had remained I might have shown him that my grip was not much more feeble than his own.
+was:1:It was nearly one oclock when Sherlock Holmes returned from his excursion.
+was:1:The total income which at the time of the wifes death was little short of 1100 is now through the fall in agricultural prices not more than 750.
+was:1:It was a perfect day with a bright sun and a few fleecy clouds in the heavens.
+was:1:The trees and wayside hedges were just throwing out their first green shoots and the air was full of the pleasant smell of the moist earth.
+was:1:To me at least there was a strange contrast between the sweet promise of the spring and this sinister quest upon which we were engaged.
 
