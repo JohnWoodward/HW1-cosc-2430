@@ -14,9 +14,6 @@ public class Main {
         QuestionFourThroughNine getAnswers = new QuestionFourThroughNine(toBeParsed.getSentenceArray(), toBeParsed.getSentenceCount());
 
 
-
-
-
         FileOutput outputOne = new FileOutput("output1.txt", questionOneAndTwo.highestFrequency());
         FileOutput outputTwo = new FileOutput("output2.txt", questionOneAndTwo.thirdPlaceString());
 
@@ -29,6 +26,5 @@ public class Main {
         FileOutput outputEight = new FileOutput("output8.txt", getAnswers.searchToOutput(4));
         FileOutput outputNine = new FileOutput("output9.txt", getAnswers.searchToOutput(5));
 
-        // write your code here
     }
 }
